@@ -147,7 +147,12 @@ We have provided test data for all the resources.
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. The core features of Node.js and Express and why they are useful.
+  Node.js is an open source server environment that  runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)
 1. Understand and explain the use of Middleware.
+  When you implement router, sometimes there are some redundancy in the code. You can use middleware to simplify the router. They are in the middle of the beginning of the route and the callback function.
 1. The basic principles of the REST architectural style.
+  Uniform Interface, Client-server, Stateless, Cacheable, Layered system and Code on demand
 1. Understand and explain the use of Express Routers.
+  It's a class which helps us to create router handlers. You can basically route to each endpoints.
 1. Describe tooling used to manually test the correctness of an API.
+  Postman can send api request along with any data such as JSON. And get the response from the endpoint.
